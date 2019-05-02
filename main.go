@@ -1,7 +1,7 @@
 package main
 
 import (
-	bitcoinbackend "bitbucket.org/pcrypto/cf-vault-plugin-bitcoin/bitcoin"
+	bitcoinbackend "github.com/ChainFront/vault-plugin-bitcoin/bitcoin"
 	"github.com/hashicorp/go-hclog"
 	"os"
 

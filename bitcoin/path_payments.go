@@ -79,7 +79,7 @@ func (b *backend) createPayment(ctx context.Context, req *logical.Request, d *fr
 	amount := validNumber(amountStr)
 
 	// Read the optional additionalSigners field (Note: the commercial version of this plugin uses completely
-	// separate instance of Vault for addition signers)
+	// separate instance of Vault for additional signers)
 	//var additionalSigners []string
 	//if additionalSignersRaw, ok := d.GetOk("additionalSigners"); ok {
 	//	additionalSigners = additionalSignersRaw.([]string)
